@@ -1,0 +1,12 @@
+// --------------------------------------------------------------
+// SITE MIXINS
+// --------------------------------------------------------------
+
+// Background Mixin
+
+@mixin jpg-background($image, $repeat:no-repeat, $size:cover, $position:center) {
+  background-image: url('../img/#{$image}.jpg');
+  background-repeat: $repeat;
+  background-size: $size;
+  background-position: $position;
+}

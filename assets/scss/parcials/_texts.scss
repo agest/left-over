@@ -4,36 +4,27 @@
 
 // Special texts for Heading
 
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   font-family: $secondary-font;
 }
 
 // Special texts for Paraghraph
 
-p {
-  font-family: $primary-font;
-}
+p {font-family: $primary-font;}
 
-h6 {
-  font-size: 1rem;
-}
+h6 {font-size: 1rem;}
 
-h5 {
-  font-size: 1.6rem;
-}
+h5 {font-size: 1.6rem;}
 
-h4 {
-  font-size: 2.56rem;
-}
+h4 {font-size: 2.56rem;}
 
-h3 {
-  font-size: 4.096rem;
-}
+h3 {font-size: 4.096rem;}
 
-h2 {
-  font-size: 6.554rem;
-}
+h2 {font-size: 6.554rem;}
 
-h1 {
-  font-size: 10.486rem;
-}
+h1 {font-size: 10.486rem;}

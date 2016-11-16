@@ -3,10 +3,7 @@
 // -----------------------------------------------------------
 
 .hero-image {
-  background-image: url('../img/hero-image.jpg');
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
+  @include jpg-background(hero-image);
   height: 100vh; //vh --> viewport height al 100%
   position: relative;
 

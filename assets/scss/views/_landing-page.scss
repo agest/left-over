@@ -1,0 +1,41 @@
+// -----------------------------------------------------------
+// ESTILOS DE LANDING PAGE
+// -----------------------------------------------------------
+
+.hero-image {
+  @include jpg-background(hero-image);
+  height: 100vh; //vh --> viewport height al 100%
+  position: relative;
+
+  &::after {
+    content: '';
+    position: absolute;
+    height: 100%;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: rgba($black, .4);
+    z-index: 0;
+  }
+
+  h1 {
+    color: $white;
+    text-shadow: 0 0 $distance $black; //  (desplazamiento hor) (desp vert) (extension difuminado) (color)
+  }
+
+.box-title {
+  position: absolute;
+  top: 50%;
+  left: 0;
+  text-align: center;
+  width: 100%;
+  transform: translateY(-50%);
+  z-index: 1;
+}
+
+  h4 {
+    color: $white;
+    text-shadow: 0 0 $distance $black;
+    letter-spacing: .25em;
+  }
+}
